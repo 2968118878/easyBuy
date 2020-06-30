@@ -4,7 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="/statics/css/style.css" />
     <!--[if IE 6]>
     <script src="js/iepng.js" type="text/javascript"></script>
         <script type="text/javascript">
@@ -15,12 +15,12 @@
 	<script type="text/javascript" src="js/jquery.bxslider_e88acd1b.js"></script>
     
     <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>    
+    <script type="text/javascript" src="js/menu.js"></script>
             
 	<script type="text/javascript" src="js/lrscroll_1.js"></script>
     
     
-	<script type="text/javascript" src="js/n_nav.js"></script>    
+	<script type="text/javascript" src="js/n_nav.js"></script>
     <script type="text/javascript" src="js/milk_ban.js"></script>
     <script type="text/javascript" src="js/paper_ban.js"></script>
     <script type="text/javascript" src="js/baby_ban.js"></script>
