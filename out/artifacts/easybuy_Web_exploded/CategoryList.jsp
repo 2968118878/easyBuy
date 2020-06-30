@@ -4,21 +4,21 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="/statics/css/style.css" />
     <!--[if IE 6]>
-    <script src="js/iepng.js" type="text/javascript"></script>
+    <script src="/statics/js/iepng.js" type="text/javascript"></script>
         <script type="text/javascript">
            EvPNG.fix('div, ul, img, li, input, a'); 
         </script>
     <![endif]-->
     
-    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>    
+    <script type="text/javascript" src="/statics/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="/statics/js/menu.js"></script>
             
-	<script type="text/javascript" src="js/lrscroll_1.js"></script>
+	<script type="text/javascript" src="/statics/js/lrscroll_1.js"></script>
     
     
-	<script type="text/javascript" src="js/n_nav.js"></script>
+	<script type="text/javascript" src="/statics/js/n_nav.js"></script>
     
 <title>尤洪</title>
 </head>
@@ -145,12 +145,12 @@
             </span>
             <span class="fl">|&nbsp;关注我们：</span>
             <span class="s_sh"><a href="#" class="sh1">新浪</a><a href="#" class="sh2">微信</a></span>
-            <span class="fr">|&nbsp;<a href="#">手机版&nbsp;<img src="images/s_tel.png" align="absmiddle" /></a></span>
+            <span class="fr">|&nbsp;<a href="#">手机版&nbsp;<img src="/statics/images/s_tel.png" align="absmiddle" /></a></span>
         </span>
     </div>
 </div>
 <div class="top">
-    <div class="logo"><a href="Index.jsp"><img src="images/logo.png" /></a></div>
+    <div class="logo"><a href="Index.jsp"><img src="/statics/images/logo.png" /></a></div>
     <div class="search">
     	<form>
         	<input type="text" value="" class="s_ipt" />
@@ -167,17 +167,17 @@
             <!--Begin 购物车已登录 Begin-->
             <ul class="cars">
             	<li>
-                	<div class="img"><a href="#"><img src="images/car1.jpg" width="58" height="58" /></a></div>
+                	<div class="img"><a href="#"><img src="/statics/images/car1.jpg" width="58" height="58" /></a></div>
                     <div class="name"><a href="#">法颂浪漫梦境50ML 香水女士持久清新淡香 送2ML小样3只</a></div>
                     <div class="price"><font color="#ff4e00">￥399</font> X1</div>
                 </li>
                 <li>
-                	<div class="img"><a href="#"><img src="images/car2.jpg" width="58" height="58" /></a></div>
+                	<div class="img"><a href="#"><img src="/statics/images/car2.jpg" width="58" height="58" /></a></div>
                     <div class="name"><a href="#">香奈儿（Chanel）邂逅活力淡香水50ml</a></div>
                     <div class="price"><font color="#ff4e00">￥399</font> X1</div>
                 </li>
                 <li>
-                	<div class="img"><a href="#"><img src="images/car2.jpg" width="58" height="58" /></a></div>
+                	<div class="img"><a href="#"><img src="/statics/images/car2.jpg" width="58" height="58" /></a></div>
                     <div class="name"><a href="#">香奈儿（Chanel）邂逅活力淡香水50ml</a></div>
                     <div class="price"><font color="#ff4e00">￥399</font> X1</div>
                 </li>
@@ -199,7 +199,7 @@
                 <ul>      
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav1.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav1.png" /></span>
                             <span class="fl">进口食品、生鲜</span>
                         </div>
                         <div class="zj">
@@ -242,14 +242,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav2.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav2.png" /></span>
                             <span class="fl">食品、饮料、酒</span>
                         </div>
                         <div class="zj" style="top:-40px;">
@@ -268,14 +268,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav3.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav3.png" /></span>
                             <span class="fl">母婴、玩具、童装</span>
                         </div>
                         <div class="zj" style="top:-80px;">
@@ -288,14 +288,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav4.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav4.png" /></span>
                             <span class="fl">家居、家庭清洁、纸品</span>
                         </div>
                         <div class="zj" style="top:-120px;">
@@ -308,14 +308,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav5.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav5.png" /></span>
                             <span class="fl">美妆、个人护理、洗护</span>
                         </div>
                         <div class="zj" style="top:-160px;">
@@ -328,14 +328,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav6.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav6.png" /></span>
                             <span class="fl">女装、内衣、中老年</span>
                         </div>
                         <div class="zj" style="top:-200px;">
@@ -348,14 +348,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav7.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav7.png" /></span>
                             <span class="fl">鞋靴、箱包、腕表配饰</span>
                         </div>
                         <div class="zj" style="top:-240px;">
@@ -368,14 +368,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav8.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav8.png" /></span>
                             <span class="fl">男装、运动</span>
                         </div>
                         <div class="zj" style="top:-280px;">
@@ -388,14 +388,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav9.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav9.png" /></span>
                             <span class="fl">手机、小家电、电脑</span>
                         </div>
                         <div class="zj" style="top:-320px;">
@@ -408,14 +408,14 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>                    
                     <li>
                     	<div class="fj">
-                        	<span class="n_img"><span></span><img src="images/nav10.png" /></span>
+                        	<span class="n_img"><span></span><img src="/statics/images/nav10.png" /></span>
                             <span class="fl">礼品、充值</span>
                         </div>
                         <div class="zj" style="top:-360px;">
@@ -428,8 +428,8 @@
                                 </div>
                             </div>
                             <div class="zj_r">
-                                <a href="#"><img src="images/n_img1.jpg" width="236" height="200" /></a>
-                                <a href="#"><img src="images/n_img2.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img1.jpg" width="236" height="200" /></a>
+                                <a href="#"><img src="/statics/images/n_img2.jpg" width="236" height="200" /></a>
                             </div>
                         </div>
                     </li>                    	
@@ -456,7 +456,7 @@
     	<span class="fl">全部 > 美妆个护 > 香水 > </span>
         <span class="n_ch">
             <span class="fl">品牌：<font>香奈儿</font></span>
-            <a href="#"><img src="images/s_close.gif" /></a>
+            <a href="#"><img src="/statics/images/s_close.gif" /></a>
         </span>
     </div>
     <!--Begin 筛选条件 Begin-->
@@ -490,35 +490,35 @@
             </div>
         	<ul>
             	<li>
-                    <div class="img"><a href="#"><img src="images/his_1.jpg" width="185" height="162" /></a></div>
+                    <div class="img"><a href="#"><img src="/statics/images/his_1.jpg" width="185" height="162" /></a></div>
                 	<div class="name"><a href="#">Dior/迪奥香水2件套装</a></div>
                     <div class="price">
                     	<font>￥<span>368.00</span></font> &nbsp; 18R
                     </div>
                 </li>
                 <li>
-                    <div class="img"><a href="#"><img src="images/his_2.jpg" width="185" height="162" /></a></div>
+                    <div class="img"><a href="#"><img src="/statics/images/his_2.jpg" width="185" height="162" /></a></div>
                 	<div class="name"><a href="#">Dior/迪奥香水2件套装</a></div>
                     <div class="price">
                     	<font>￥<span>768.00</span></font> &nbsp; 18R
                     </div>
                 </li>
                 <li>
-                    <div class="img"><a href="#"><img src="images/his_3.jpg" width="185" height="162" /></a></div>
+                    <div class="img"><a href="#"><img src="/statics/images/his_3.jpg" width="185" height="162" /></a></div>
                 	<div class="name"><a href="#">Dior/迪奥香水2件套装</a></div>
                     <div class="price">
                     	<font>￥<span>680.00</span></font> &nbsp; 18R
                     </div>
                 </li>
                 <li>
-                    <div class="img"><a href="#"><img src="images/his_4.jpg" width="185" height="162" /></a></div>
+                    <div class="img"><a href="#"><img src="/statics/images/his_4.jpg" width="185" height="162" /></a></div>
                 	<div class="name"><a href="#">Dior/迪奥香水2件套装</a></div>
                     <div class="price">
                     	<font>￥<span>368.00</span></font> &nbsp; 18R
                     </div>
                 </li>
                 <li>
-                    <div class="img"><a href="#"><img src="images/his_5.jpg" width="185" height="162" /></a></div>
+                    <div class="img"><a href="#"><img src="/statics/images/his_5.jpg" width="185" height="162" /></a></div>
                 	<div class="name"><a href="#">Dior/迪奥香水2件套装</a></div>
                     <div class="price">
                     	<font>￥<span>368.00</span></font> &nbsp; 18R
@@ -548,7 +548,7 @@
             	
                 <ul class="cate_list">
                 	<li>
-                    	<div class="img"><a href="#"><img src="images/per_1.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_1.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -559,7 +559,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_2.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_2.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -570,7 +570,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_3.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_3.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -581,7 +581,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_4.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_4.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -592,7 +592,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_5.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_5.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -603,7 +603,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_6.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_6.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -614,7 +614,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_7.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_7.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -625,7 +625,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_8.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_8.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -636,7 +636,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_9.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_9.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -647,7 +647,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_10.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_10.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -658,7 +658,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_11.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_11.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -669,7 +669,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_12.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_12.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -680,7 +680,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_5.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_5.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -691,7 +691,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_6.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_6.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -702,7 +702,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_7.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_7.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -713,7 +713,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_8.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_8.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -724,7 +724,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_9.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_9.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -735,7 +735,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_10.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_10.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -746,7 +746,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_11.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_11.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -757,7 +757,7 @@
                         </div>
                     </li>
                     <li>
-                    	<div class="img"><a href="#"><img src="images/per_12.jpg" width="210" height="185" /></a></div>
+                    	<div class="img"><a href="#"><img src="/statics/images/per_12.jpg" width="210" height="185" /></a></div>
                         <div class="price">
                             <font>￥<span>198.00</span></font> &nbsp; 26R
                         </div>
@@ -784,25 +784,25 @@
         <div class="b_btm">
             <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="72"><img src="images/b1.png" width="62" height="62" /></td>
+                <td width="72"><img src="/statics/images/b1.png" width="62" height="62" /></td>
                 <td><h2>正品保障</h2>正品行货  放心购买</td>
               </tr>
             </table>
 			<table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="72"><img src="images/b2.png" width="62" height="62" /></td>
+                <td width="72"><img src="/statics/images/b2.png" width="62" height="62" /></td>
                 <td><h2>满38包邮</h2>满38包邮 免运费</td>
               </tr>
             </table>
             <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="72"><img src="images/b3.png" width="62" height="62" /></td>
+                <td width="72"><img src="/statics/images/b3.png" width="62" height="62" /></td>
                 <td><h2>天天低价</h2>天天低价 畅选无忧</td>
               </tr>
             </table>
             <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="72"><img src="images/b4.png" width="62" height="62" /></td>
+                <td width="72"><img src="/statics/images/b4.png" width="62" height="62" /></td>
                 <td><h2>准时送达</h2>收货时间由你做主</td>
               </tr>
             </table>
@@ -850,14 +850,14 @@
             </p>
         </div>
         <div class="b_er">
-            <div class="b_er_c"><img src="images/er.gif" width="118" height="118" /></div>
-            <img src="images/ss.png" />
+            <div class="b_er_c"><img src="/statics/images/er.gif" width="118" height="118" /></div>
+            <img src="/statics/images/ss.png" />
         </div>
     </div>    
     <div class="btmbg">
 		<div class="btm">
         	备案/许可证编号：蜀ICP备12009302号-1-www.dingguagua.com   Copyright © 2015-2018 尤洪商城网 All Rights Reserved. 复制必究 , Technical Support: Dgg Group <br />
-            <img src="images/b_1.gif" width="98" height="33" /><img src="images/b_2.gif" width="98" height="33" /><img src="images/b_3.gif" width="98" height="33" /><img src="images/b_4.gif" width="98" height="33" /><img src="images/b_5.gif" width="98" height="33" /><img src="images/b_6.gif" width="98" height="33" />
+            <img src="/statics/images/b_1.gif" width="98" height="33" /><img src="/statics/images/b_2.gif" width="98" height="33" /><img src="/statics/images/b_3.gif" width="98" height="33" /><img src="/statics/images/b_4.gif" width="98" height="33" /><img src="/statics/images/b_5.gif" width="98" height="33" /><img src="/statics/images/b_6.gif" width="98" height="33" />
         </div>    	
     </div>
     <!--End Footer End -->    

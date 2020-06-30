@@ -4,18 +4,18 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="/statics/css/style.css" />
     <!--[if IE 6]>
-    <script src="js/iepng.js" type="text/javascript"></script>
+    <script src="/statics/js/iepng.js" type="text/javascript"></script>
         <script type="text/javascript">
            EvPNG.fix('div, ul, img, li, input, a'); 
         </script>
     <![endif]-->
         
-    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>    
+    <script type="text/javascript" src="/statics/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="/statics/js/menu.js"></script>
         
-	<script type="text/javascript" src="js/select.js"></script>
+	<script type="text/javascript" src="/statics/js/select.js"></script>
         
     
 <title>尤洪</title>
@@ -143,13 +143,13 @@
             </span>
             <span class="fl">|&nbsp;关注我们：</span>
             <span class="s_sh"><a href="#" class="sh1">新浪</a><a href="#" class="sh2">微信</a></span>
-            <span class="fr">|&nbsp;<a href="#">手机版&nbsp;<img src="images/s_tel.png" align="absmiddle" /></a></span>
+            <span class="fr">|&nbsp;<a href="#">手机版&nbsp;<img src="/statics/images/s_tel.png" align="absmiddle" /></a></span>
         </span>
     </div>
 </div>
 <div class="m_top_bg">
     <div class="top">
-        <div class="m_logo"><a href="Index.jsp"><img src="images/logo1.png" /></a></div>
+        <div class="m_logo"><a href="Index.jsp"><img src="/statics/images/logo1.png" /></a></div>
         <div class="m_search">
             <form>
                 <input type="text" value="" class="m_ipt" />
@@ -166,17 +166,17 @@
                 <!--Begin 购物车已登录 Begin-->
                 <ul class="cars">
                     <li>
-                        <div class="img"><a href="#"><img src="images/car1.jpg" width="58" height="58" /></a></div>
+                        <div class="img"><a href="#"><img src="/statics/images/car1.jpg" width="58" height="58" /></a></div>
                         <div class="name"><a href="#">法颂浪漫梦境50ML 香水女士持久清新淡香 送2ML小样3只</a></div>
                         <div class="price"><font color="#ff4e00">￥399</font> X1</div>
                     </li>
                     <li>
-                        <div class="img"><a href="#"><img src="images/car2.jpg" width="58" height="58" /></a></div>
+                        <div class="img"><a href="#"><img src="/statics/images/car2.jpg" width="58" height="58" /></a></div>
                         <div class="name"><a href="#">香奈儿（Chanel）邂逅活力淡香水50ml</a></div>
                         <div class="price"><font color="#ff4e00">￥399</font> X1</div>
                     </li>
                     <li>
-                        <div class="img"><a href="#"><img src="images/car2.jpg" width="58" height="58" /></a></div>
+                        <div class="img"><a href="#"><img src="/statics/images/car2.jpg" width="58" height="58" /></a></div>
                         <div class="name"><a href="#">香奈儿（Chanel）邂逅活力淡香水50ml</a></div>
                         <div class="price"><font color="#ff4e00">￥399</font> X1</div>
                     </li>
@@ -274,25 +274,25 @@
         <div class="b_btm">
             <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="72"><img src="images/b1.png" width="62" height="62" /></td>
+                <td width="72"><img src="/statics/images/b1.png" width="62" height="62" /></td>
                 <td><h2>正品保障</h2>正品行货  放心购买</td>
               </tr>
             </table>
 			<table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="72"><img src="images/b2.png" width="62" height="62" /></td>
+                <td width="72"><img src="/statics/images/b2.png" width="62" height="62" /></td>
                 <td><h2>满38包邮</h2>满38包邮 免运费</td>
               </tr>
             </table>
             <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="72"><img src="images/b3.png" width="62" height="62" /></td>
+                <td width="72"><img src="/statics/images/b3.png" width="62" height="62" /></td>
                 <td><h2>天天低价</h2>天天低价 畅选无忧</td>
               </tr>
             </table>
             <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="72"><img src="images/b4.png" width="62" height="62" /></td>
+                <td width="72"><img src="/statics/images/b4.png" width="62" height="62" /></td>
                 <td><h2>准时送达</h2>收货时间由你做主</td>
               </tr>
             </table>
@@ -340,14 +340,14 @@
             </p>
         </div>
         <div class="b_er">
-            <div class="b_er_c"><img src="images/er.gif" width="118" height="118" /></div>
-            <img src="images/ss.png" />
+            <div class="b_er_c"><img src="/statics/images/er.gif" width="118" height="118" /></div>
+            <img src="/statics/images/ss.png" />
         </div>
     </div>    
     <div class="btmbg">
 		<div class="btm">
         	备案/许可证编号：蜀ICP备12009302号-1-www.dingguagua.com   Copyright © 2015-2018 尤洪商城网 All Rights Reserved. 复制必究 , Technical Support: Dgg Group <br />
-            <img src="images/b_1.gif" width="98" height="33" /><img src="images/b_2.gif" width="98" height="33" /><img src="images/b_3.gif" width="98" height="33" /><img src="images/b_4.gif" width="98" height="33" /><img src="images/b_5.gif" width="98" height="33" /><img src="images/b_6.gif" width="98" height="33" />
+            <img src="/statics/images/b_1.gif" width="98" height="33" /><img src="/statics/images/b_2.gif" width="98" height="33" /><img src="/statics/images/b_3.gif" width="98" height="33" /><img src="/statics/images/b_4.gif" width="98" height="33" /><img src="/statics/images/b_5.gif" width="98" height="33" /><img src="/statics/images/b_6.gif" width="98" height="33" />
         </div>    	
     </div>
     <!--End Footer End -->    
