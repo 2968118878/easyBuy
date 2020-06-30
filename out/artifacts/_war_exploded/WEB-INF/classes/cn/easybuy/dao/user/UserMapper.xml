@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.easybuy.dao.user.UserMapper">
+    <!--查询用户-->
+    <select id="getUserByLoginName" resultMap="user">
+        select u.*,a.*  from easybuy_user as u inner join easybuy_user_address as a  on u.id = a.userId
+        where u.loginName = #{loginName}
+    </select>
+    <resultMap id="user" type="User">
+        <result column="id" property="id"></result>
+        <result column="userName" property="userName"></result>
+        <collection property="addressList" ofType="Address" javaType="list">
+            <result property="id" column="id"></result>
+            <result property="address" column="address"></result>
+            <result property="createTime" column="createTime"></result>
+            <result property="userId" column="userId"></result>
+            <result property="isDefault" column="isDefault"></result>
+            <result property="remark" column="remark"></result>
+        </collection>
+    </resultMap>
+
+    <!--注册用户-->
+    <insert id="addUser" parameterType="User">
+        insert into easybuy_user(username,loginName,password,sex,identityCode,email,mobile,type)
+        values (#{userName},#{loginName},#{password},#{sex},#{identityCode},#{email},
+        #{mobile},#{type})
+    </insert>
+</mapper>
