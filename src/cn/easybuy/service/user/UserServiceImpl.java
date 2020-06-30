@@ -18,14 +18,14 @@ public class UserServiceImpl implements UserService{
         User user = null;
         try{
             sqlSession = MyBatisUtil.createSqlSession();
-            user = sqlSession.getMapper(UserMapper.class).getUserByLoginName("hpj");
+            user = sqlSession.getMapper(UserMapper.class).getUserByLoginName(userName);
         }catch (Exception e){
             e.printStackTrace();
         }finally {
             MyBatisUtil.closeSqlSession(sqlSession);
         }
         if(null!=user){
-            if(!user.getPassword().equals("123456")){
+            if(!user.getPassword().equals(pwd)){
                 user = null;
             }
         }

@@ -70,7 +70,7 @@
               </tr>
               <tr height="70">
                 <td>密&nbsp; &nbsp; 码</td>
-                <td><input type="password" value="" class="l_pwd" pwd = "pwd"/></td>
+                <td><input type="password" value="" class="l_pwd" name= "pwd"/></td>
               </tr>
               <tr>
               	<td>&nbsp;</td>

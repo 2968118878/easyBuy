@@ -1,6 +1,7 @@
 package cn.easybuy.web.pre;
 
 import cn.easybuy.dao.user.UserMapper;
+import cn.easybuy.entity.User;
 import cn.easybuy.service.user.UserService;
 import cn.easybuy.service.user.UserServiceImpl;
 import cn.easybuy.utils.MyBatisUtil;
@@ -33,11 +34,12 @@ public class UserServlet extends HttpServlet {
         String name = request.getParameter("userName");
         String pwd = request.getParameter("pwd");
         SqlSession sqlSession = MyBatisUtil.createSqlSession();
-            int user = sqlSession.getMapper(UserMapper.class).count();
-            if(0!=user){
-                out.write("<script>alert('aaa')</script>");
+            User user = service.login(name,pwd);
+            System.out.println(pwd);
+            if(user!=null){
+                out.write("<script>alert('登陆成功')</script>");
             }else {
-                out.write("<script>alert('bbb')</script>");
+                out.write("<script>alert('登陆失败')</script>");
             }
     }
 }
