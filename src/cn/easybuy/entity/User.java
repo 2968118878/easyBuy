@@ -1,4 +1,6 @@
-package cn.easybuy.entity.user;
+package cn.easybuy.entity;
+
+import cn.easybuy.entity.Address;
 
 import java.util.List;
 

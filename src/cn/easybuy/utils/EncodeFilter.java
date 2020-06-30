@@ -1,26 +1,25 @@
 package cn.easybuy.utils;
 
 import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class EncodeFilter implements Filter{
-	private String encode = null;
 	public void destroy() {
-		encode = null;
+
 	}
 	
 	//对所有页面设置字符集编码
 	public void doFilter(ServletRequest request,ServletResponse response,FilterChain chain) throws IOException,ServletException{
-		if(null==request.getCharacterEncoding()) {
-			request.setCharacterEncoding(encode);
-		}
-		chain.doFilter(request, response);
+		HttpServletRequest req = (HttpServletRequest) request;
+		HttpServletResponse resp = (HttpServletResponse) response;
+		req.setCharacterEncoding("utf-8");
+		resp.setContentType("text/html; charset=UTF-8");
+		resp.setCharacterEncoding("utf-8");
+		chain.doFilter(req, resp);
 	}
 	
 	public void init(FilterConfig filterConfig) throws ServletException{
-		String encode = filterConfig.getInitParameter("encode");
-		if(this.encode == null) {
-			this.encode = encode;
-		}
 	}
 }

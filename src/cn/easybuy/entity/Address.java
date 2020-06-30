@@ -1,4 +1,4 @@
-package cn.easybuy.entity.user;
+package cn.easybuy.entity;
 
 import java.util.Date;
 

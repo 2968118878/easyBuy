@@ -1,7 +1,7 @@
 package User;
 
 import cn.easybuy.dao.user.UserMapper;
-import cn.easybuy.entity.user.User;
+import cn.easybuy.entity.User;
 import cn.easybuy.utils.MyBatisUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.log4j.Logger;
@@ -12,17 +12,21 @@ public class TestUser {
     @Test
     public void count(){
         SqlSession sqlSession = null;
-        User user = new User();
+        User user = null;
         try{
             sqlSession = MyBatisUtil.createSqlSession();
-            user = sqlSession.getMapper(UserMapper.class).getUserByLoginName("hpj");
+            user = sqlSession.getMapper(UserMapper.class).getUserByLoginName("aaa");
         }catch (Exception e){
             e.printStackTrace();
         }finally {
             MyBatisUtil.closeSqlSession(sqlSession);
         }
-        if(user.getPassword().equals("123456")){
-            logger.debug("登陆成功!欢迎您：来自:"+user.getAddressList().get(0).getAddress()+"的"+user.getUserName());
+        if(null != user){
+            if(user.getPassword().equals("123456")){
+                logger.debug("登陆成功!欢迎您：来自:"+user.getAddressList().get(0).getAddress()+"的"+user.getUserName());
+            }
+        }else {
+            logger.debug("登录失败");
         }
     }
 
